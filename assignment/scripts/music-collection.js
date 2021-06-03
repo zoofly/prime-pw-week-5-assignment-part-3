@@ -20,7 +20,16 @@ console.log(addToCollection('Some boring love stories pt 5','Powfu',2020));
 
 console.log(collection);
 
-function showCollection(album){
-
+function showCollection(collection){
   console.log(collection.length);
-}
+  for(let i=0; i<collection.length; i++){
+    return collection;
+  }
+  console.log(collection)
+} //end showCollection
+
+console.log('Here is some of my favorites:');
+
+function findByArtist(artist){
+
+}//end findByArtist
